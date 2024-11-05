@@ -1,0 +1,520 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url(https://images.unsplash.com/photo-1531297484001-80022131f5a1?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D); */
+    background: linear-gradient(to top,rgb(20, 19, 19),rgb(43, 41, 41),rgb(0, 0, 0));
+}
+
+/*header*/
+#header{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    left: 10%;
+    background-image: linear-gradient(to bottom right, rgb(254, 199, 208,0.3) ,rgb(101, 255, 255,0.3) ,rgb(230, 230, 250,0.3));
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: fixed;
+    margin-top: -4.5%;
+    border-radius: 25px;
+    box-shadow: 4px 4px 6px 4px rgba(245, 244, 244, 0.2), 4px 6px 6px 4px rgba(253, 253, 253, 0.19);
+}
+#logo{
+    font-size: 30px;
+    margin: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: scale 1.5s ease;
+}
+#logo:hover{
+    color: paleturquoise;
+    scale: 1.2;
+}
+#profiles{
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    font-size: 20px;
+    font-weight: normal;
+    padding-top: 15px;
+}
+#profiles a{
+    text-decoration: none;
+    color: black;
+}
+#p1 a, #p2 a, #p3 a, #p4 a, #p5 a{
+    padding:5px;
+    cursor: pointer;
+    width:100px;
+    transition: 0.7s ease-out;
+}
+
+
+#p1 a:hover{
+color: orange;
+border-bottom: 3px solid rgb(0, 0, 0);
+}
+#p2 a:hover{
+    color: orange;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+#p3 a:hover{
+    color: orange;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+#p4 a:hover{
+    color: orange;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+#p5 a:hover{
+    color: orange;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+/*home*/
+
+#about{
+    text-align: center;
+    margin-top: 5.5%;
+    padding: 200px 100px;
+}
+#about #wish{
+    font-size: 70px;
+    font-family: 'Times New Roman';
+    letter-spacing: 0.1px;
+    line-height: 100px;
+    margin-bottom: 2px;
+    color:rgb(238, 75, 15);
+}
+#wish:hover{
+    scale: 1.02;
+    text-decoration: underline;
+}
+
+#content{
+    font-size: 25px;
+    color: #fff;
+    letter-spacing: 0.4px;
+    line-height: 35px;
+}
+
+
+/*bio*/
+
+#bio{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 40px;
+    margin-left: 10%;
+    /* background-color: rgb(57, 133, 133); */
+}
+#image img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 350px;
+    width: 350px;
+    margin-top: 50%;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: scale 2.5s ease-in;
+}
+#image img:hover{
+   
+    box-shadow: 1px 3px 4px 4px white
+}
+#biodata{
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
+    color: #fff;
+    
+}
+#biodata p{
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 50px;
+
+}
+h3{
+    font-size: 30px;
+}
+p{
+    font-size: large;
+}
+#biodata a{
+    text-decoration: none;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #fff;
+    background-color: orangered;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+#biodata a:hover{
+    color: orangered;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 2px 1px rgba(245, 244, 244, 0.2), 4px 6px 6px 4px rgba(253, 253, 253, 0.19);
+}
+
+/*certifications*/
+
+.project-card{
+    background-image: url('https://img.freepik.com/free-photo/cybersecurity-concept-illustration_23-2151883579.jpg?t=st=1730736702~exp=1730740302~hmac=0c643089c954ff3a5630753a03052dc7b0e93339a0eb055251a8cbe7ab6f54c3&w=360');
+    background-size: cover;
+    border-radius: 20px 20px 0 0;
+    /* height: 50vh; */
+    width: 15vw;
+}
+.project-card1{
+    background-image: url('https://img.freepik.com/free-photo/programming-background-collage_23-2149901770.jpg?t=st=1730738800~exp=1730742400~hmac=46ff01687e66cddf3766a5904827993e9f4ca6e3f7ec1bda86552e87b4000352&w=826');
+    background-size: cover;
+    background-position-x: -25px;
+    border-radius: 20px 20px 0 0;
+    /* height: 50vh; */
+    width: 15vw;
+}
+.project-card2{
+    background-image: url('https://img.freepik.com/free-photo/double-exposure-caucasian-man-virtual-reality-vr-headset-is-presumably-gamer-hacker-cracking-code-into-secure-network-server-with-lines-code_146671-18911.jpg?t=st=1730739333~exp=1730742933~hmac=3bf605c68c72028096216df884c041c1b5149ca4b9f6693cdcb7c8cfa66a6650&w=996');
+    background-size: cover;
+    background-position-x: -65px;
+    border-radius: 20px 20px 0 0;
+    /* height: 50vh; */
+    width: 15vw;
+}
+.project-card3{
+    background-image: url('https://www.topsinfosolutions.com/wp-content/uploads/2020/07/mern-stack.png');
+    background-size: cover;
+    background-position-x: -230px;
+    background-position-y: 240px;
+    border-radius: 20px 20px 0 0;
+    height: 45vh;
+    width: 15vw;
+}
+.project-discription-card {
+    border-radius: 15px 15px 0 0;
+    /* display: none; */
+    background-color: #fff;
+}
+.project-card:hover{
+    box-shadow: 1px 1px 4px 4px rgb(65, 65, 180);
+}
+.project-card1:hover{
+    box-shadow: 1px 1px 4px 4px rgb(180, 130, 65);
+}
+.project-card2:hover{
+    box-shadow: 1px 1px 4px 4px rgb(96, 180, 65);
+}
+.project-card3:hover{
+    box-shadow: 1px 1px 4px 4px rgb(180, 65, 65);
+}
+.project-discription-card:hover{
+    box-shadow: 2px 2px 4px 4px rgb(149, 127, 127);
+}
+
+#pro{
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+#pro h3, #pro p{
+    text-align: center;
+    margin-top: -2%;
+}
+#title{
+    /* margin-left: 25%;
+    margin-right: 25%; */
+    margin: auto;
+    margin-bottom: 35px;
+    width: 100%;
+    max-width: 1285px;
+}
+#title h3{
+    color: orange;
+    letter-spacing: 1px;
+    margin-bottom: -15px;
+}
+#title p{
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+#works{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+h3:hover{
+    text-decoration: underline;
+    text-rendering: geometricPrecision;
+}
+
+/*skills*/
+
+#skills{
+    /* width: 100%;
+    max-width: 1285px; */
+    margin-top: 25px;
+}
+#s_title{
+    /* background-color: rgb(57, 133, 133); */
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 5% 5% 0 5%;
+    /* width: 100%; */
+    /* max-width: 1285px; */
+    margin-top: 15px;
+    color: orange;
+}
+#tsl{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* padding-bottom: 80px; */
+    margin:  25px 0;
+}
+
+#techskills{
+    margin: 0 18%;
+}
+
+#techskills p{
+    font-size: 25px;
+    color: #fff;
+}
+
+#langs{
+    margin:  0 18%;
+}
+#langs p{
+    font-size: 25px;
+    color: #fff;
+}
+#li{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: -10%;
+
+}
+#li1{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-right: -15%;
+}
+progress{
+    /* border: 2px solid black; */
+    height: 15px;
+    width: 170%;
+    border-radius: 2px;
+}
+
+/*contact*/
+
+#contact{
+    position: relative;
+    top: 100px;
+}
+#name img,#num img,#mail img{
+    height: 40px;
+    width: 40px;
+}
+
+#cnt{
+    margin-top: 3%;
+    text-align: center;
+    font-weight: bold;
+    color: orange;
+    font-style: italic;
+    font-size: 50px;
+    padding-bottom: 10px;
+}
+.contact-card{  
+    gap: 10rem;
+    font-size: 25px;
+}
+.contact-card .li{
+    list-style: none;
+}
+.contact-card .li a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s ease;
+}
+.contact-card .li a:hover{
+    color: orangered;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 2px 1px rgba(245, 244, 244, 0.2), 4px 6px 6px 4px rgba(253, 253, 253, 0.19);
+}
+span{
+    color: #fff;
+    transition: 0.5s ease;
+}
+span:hover{
+    color: orangered;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 25px;
+    box-shadow: 2px 1px rgba(245, 244, 244, 0.2), 4px 6px 6px 4px rgba(253, 253, 253, 0.19);
+}
+
+
+#dummy{
+    width:100%;
+    height: 65vh;
+}
+
+/*toggle &  dropdown*/
+.toggle_btn{
+    display: none;
+    position: fixed;
+    color: whitesmoke;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10%;
+    box-shadow: 4px 4px 6px 4px rgba(245, 244, 244, 0.2), 4px 6px 6px 4px rgba(253, 253, 253, 0.19);
+}
+
+#dropdown a{
+    text-decoration: none;
+    color: rgb(253, 246, 238);
+    font-size: 20px;    
+}
+#dropdown .li{
+    list-style: none;
+    padding: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#dropdown{
+    display: none;
+    position: fixed;
+    right: 2rem;
+    top: 190px;
+    width: 300px;
+    height: 0;
+    background: rgba(255,255, 255,0.1);
+    backdrop-filter: blur(15px);
+    border-radius: 10px;
+    overflow: hidden;
+    transition: height .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+#dropdown.open{
+    height: 240px;
+}
+
+@media only screen and (max-width: 412px) {
+    #header{
+        display: none;
+    }
+    .toggle_btn{
+        display: block;
+        width: fit-content;
+        margin: auto;
+        float: right;
+        position: fixed;
+    }
+    #dropdown{
+        display: block;
+        margin-top: -50px;
+        position: fixed;
+        margin-right: -50px;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: -15%;
+        padding: 0;
+        margin-top: 15%;
+        padding: 10px;
+    }
+
+    #about #wish{
+        text-align: center;
+        font-size: 25px;
+        line-height: 20px;
+        
+    }
+    #content{
+        font-size: 15px;
+    }
+
+    #bio #image{
+        margin-top: 10%;
+    }
+    #bio{
+        display: flex;
+        justify-content: space-between;
+        width: 100vh;
+        margin-left: -10%;
+    }
+    #bio #image img{
+        width: 100px;
+        height: 100px;
+    }
+    #bio #biodata p{
+        font-size: 10px;
+        line-height: 20px;
+        margin-left: -5%;
+    }
+    #works{
+        font-size: 10px;
+        flex-direction: column;
+        padding: 3px 30px;
+    }
+    .project-card{
+        height: 60vh;
+        width: 45vh;
+    }
+    .project-card1{
+        height: 60vh;
+        width: 45vh;
+    }
+    .project-card2{
+        height: 60vh;
+        width: 45vh;
+    }
+    .project-card3{
+        height: 60vh;
+        width: 45vh;
+    }
+    .contact-card{
+        gap: 1rem;
+        flex-direction: column;
+    }
+    .connect-me-card{
+        display: block;
+        flex-direction: column;
+        gap: 5px;
+    }
+    #li{
+        
+        margin-left: 10%;
+    
+    }
+    #li1{
+        margin-right: 15%;
+    }
+}
+
